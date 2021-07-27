@@ -3,8 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 export default createGlobalStyle`
   * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    
   }
 
   html {
@@ -12,12 +11,15 @@ export default createGlobalStyle`
   }
 
   body {
-    color: white;
+    color: #f9f9f9;
     background-color: #040714;
-    font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Avenir-Roman, sans-serif;
+    margin: 0;
+    padding: 0;
   }
 
   a {
+    color: #f9f9f9;
     text-decoration: none;
   }
 `;
