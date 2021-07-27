@@ -13,6 +13,8 @@ export default createGlobalStyle`
 
   body {
     color: white;
+    background-color: #040714;
+    font-family: --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   a {
